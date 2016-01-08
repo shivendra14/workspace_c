@@ -1,0 +1,63 @@
+18:28:19 **** Rebuild of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello_world.o "..\\hello_world.c" 
+..\hello_world.c:9:2: warning: return type defaults to 'int' [-Wreturn-type]
+  main ()
+  ^
+..\hello_world.c: In function 'main':
+..\hello_world.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o coding_practice.exe hello_world.o 
+18:29:26 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello_world.o "..\\hello_world.c" 
+gcc -o coding_practice.exe hello_world.o 
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+18:35:12 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello_world.o "..\\hello_world.c" 
+gcc -o coding_practice.exe hello_world.o 
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+18:40:41 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello_world.o "..\\hello_world.c" 
+gcc -o coding_practice.exe hello_world.o 
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice
+18:41:54 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello_world.o "..\\hello_world.c" 
+..\hello_world.c: In function 'main':
+..\hello_world.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Hello World!");
+  ^
+..\hello_world.c:4:2: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+gcc -o coding_practice.exe hello_world.o 
+18:42:16 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello_world.o "..\\hello_world.c" 
+gcc -o coding_practice.exe hello_world.o 
+18:45:21 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o helloWorld.o "..\\helloWorld.c" 
+gcc -o coding_practice.exe helloWorld.o hello_world.o 
+hello_world.o: In function `main':
+C:\Users\shivendr\workspace_c\coding_practice\Debug/../hello_world.c:3: multiple definition of `main'
+helloWorld.o:C:\Users\shivendr\workspace_c\coding_practice\Debug/../helloWorld.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:46:23 **** Incremental Build of configuration Debug for project coding_practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o helloWorld.o "..\\helloWorld.c" 
+gcc -o coding_practice.exe helloWorld.o 
+Info: Nothing to build for coding_practice
+Info: Nothing to build for coding_practice

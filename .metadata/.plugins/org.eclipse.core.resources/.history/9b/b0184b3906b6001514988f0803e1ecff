@@ -1,0 +1,11 @@
+/*
+ * hello_world.c
+ *
+ *  Created on: Jan 8, 2016
+ *      Author: shivendr
+ */
+
+int main ()
+{
+	printf("Hello World!");
+}
